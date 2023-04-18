@@ -1,4 +1,4 @@
-span, h1, h2, p, button,li,a{
+span, h1, h2, h3, p, button,li,a{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -203,7 +203,31 @@ span, h1, h2, p, button,li,a{
 
          
 }
+/*sketchy section css*/
 
+.sketch_content {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin: auto auto;
+    height: 80vh;
+    background-color: #ffffff;
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 50px;
+
+
+}
+
+#final {
+    align-items: center;
+    display: flex;
+    justify-self: center;
+    height: 60%;
+    width: 60%;
+
+}
 /*hero section Css*/
 
 .main{
@@ -212,7 +236,7 @@ span, h1, h2, p, button,li,a{
 }
 
 .main__container {  
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
@@ -221,7 +245,7 @@ span, h1, h2, p, button,li,a{
     background-color: #ffffff;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1000px;
     padding: 0 50px;
 
 }
@@ -235,18 +259,26 @@ span, h1, h2, p, button,li,a{
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    margin-bottom: 0.5rem;
-}
-
-.main__content h2 {
-    font-size: 2rem;
-   color: #000000;
     margin-bottom: 1rem;
 }
 
+.main__content h2 {
+    font-size: 3rem;
+   color: #000000;
+    margin-bottom: 2rem;
+}
+
 .main__content p {
+    font-size: 1.5rem;
+    color: #131313;
+    margin-bottom: 0.6rem;
+
+}
+
+.main__content h3 {
     font-size: 2rem;
     color: #131313;
+    margin-bottom: 1rem;
 
 }
 
